@@ -33,7 +33,7 @@ class _WelcomeLanderState extends State<WelcomeLander> implements LoginView {
           children: <Widget>[
             Lottie.asset(NPImages.welcomeLottie),
             Text(
-              "Let's get you set-up Dispatch with Rolpta anytime you want, and enjoy quality delivery ",
+              "Let's get you set-up Dispatch with Necessary anytime you want, and enjoy quality service ",
               textAlign: TextAlign.center,
               style: Theme.of(context)
                   .textTheme
