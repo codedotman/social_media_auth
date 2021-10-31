@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:necessary_pink_demo/components/np_button.dart';
 import 'package:necessary_pink_demo/components/np_images.dart';
+import 'package:necessary_pink_demo/helpers/helpers.dart';
 import 'package:necessary_pink_demo/screens/auth_screen.dart';
 
 class AuthSelector extends StatelessWidget {
@@ -23,11 +24,13 @@ class AuthSelector extends StatelessWidget {
         register
             ? GestureDetector(
                 onTap: () {
-                  // urlLauncher();
+                  urlLauncher();
                 },
                 child: Text("Terms of use and privacy policy",
                     style: Theme.of(context).textTheme.headline1.copyWith(
-                        color: Colors.black, fontWeight: FontWeight.bold),
+                        color: Colors.black,
+                        fontWeight: FontWeight.bold,
+                        decoration: TextDecoration.underline),
                     textAlign: TextAlign.center),
               )
             : Container(),
