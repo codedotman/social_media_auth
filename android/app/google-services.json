@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "633153393433",
+    "project_id": "necessay-b0cf7",
+    "storage_bucket": "necessay-b0cf7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633153393433:android:02a6fe88043299be6cab88",
+        "android_client_info": {
+          "package_name": "com.necessary.pink.necessary_pink_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633153393433-2ob77624lrtm6a1h1cr3qbhrfeb4t3q9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.necessary.pink.necessary_pink_demo",
+            "certificate_hash": "93c28592b32e55a18ef9a97653ea81324baa0eb3"
+          }
+        },
+        {
+          "client_id": "633153393433-it6eon9i611ntl6o8qu92704c2r8j2l4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChdKBWkuU2upyn4s1ze99myWpEsAKDA98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633153393433-it6eon9i611ntl6o8qu92704c2r8j2l4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
